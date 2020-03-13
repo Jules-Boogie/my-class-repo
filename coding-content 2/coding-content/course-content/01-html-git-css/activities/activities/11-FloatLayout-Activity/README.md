@@ -1,6 +1,6 @@
 # Don't be a floater
 
-* Introduce yourself to 1–2 people next to you.
+* Introduce yourself to 
 
 * Then using `floats.html` and `floats.css` as a starting point, work together to create the missing CSS necessary to form the layout shown to you on screen. 
 

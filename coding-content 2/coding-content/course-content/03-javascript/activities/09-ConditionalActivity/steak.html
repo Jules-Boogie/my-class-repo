@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Conditional Demo</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+    
+        var eatSteak = confirm("Do you eat steak?");
+        if(eatSteak){
+            document.write("Here is a steak sandwich.")
+        }
+        else {
+            document.write("Here is a tofu stirfry")
+        }
+
+        var birthYear = prompt("What year were you born?");
+        if(birthYear <= 1998){
+            document.write("Here is your Sake!")
+        }
+
+        else{
+            document.write("No sake for you!")
+        }
+    
+    // discovered that the alert was printed before the document.write. 
+
+
+
+    </script>
+
+  </body>
+</html>

@@ -62,6 +62,7 @@ body {
   /* The body's bg color will be #333 */
   body {
     background-color: #333;
+    padding: 50px;
   }
 
   /* The wrapper's width will be 600px */

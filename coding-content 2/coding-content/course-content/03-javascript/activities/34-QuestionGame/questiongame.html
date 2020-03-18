@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>My First Object</title>
+  </head>
+  <body>
+
+    <h1>Question Game!</h1>
+
+ <script> 
+// create 10 questions
+ var game =[ 
+     {q:"Is the color of the sun yellow?", a: "true"},
+     {q:"is the color of the grass green", a:"true"},
+    {q:"Is Donald Trump, president", a:"true"},
+    {q:"is this 2020?",a:"true"}
+]
+    var userScore = 0
+
+    for(var i = 0; i < game.length; i++){
+        var answer = confirm(game[i].q);
+
+        if(answer === true) {
+            alert("You are Correct")
+            userScore++
+        }
+        else {
+            alert("wrong answer")
+            userScore--
+        }
+        alert("The total UserScore is : " + userScore)
+    }
+ 
+
+
+</script>
+
+</body>
+</html>
